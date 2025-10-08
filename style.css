@@ -1,0 +1,411 @@
+:root {
+  --coffee-bg: #faf7f2;
+  --coffee-accent: #7d4218;
+  --coffee-accent-dark: #9c5c26;
+  --coffee-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --coffee-font-alt: 'Georgia', serif;
+  --coffee-light: #fff;
+  --coffee-grey-bg: #f7f6f4;
+  --coffee-grey-bg2: #f5eee7;
+  --coffee-grey-border: #ececec;
+  --coffee-grey-text: #5e4633;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--coffee-font);
+  background: var(--coffee-bg);
+  color: #231f20;
+}
+
+header {
+  position: relative;
+  z-index: 121;
+}
+
+.navbar {
+  background: var(--coffee-light);
+  border-bottom: 1px solid var(--coffee-grey-border);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01);
+  padding: 0.8em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  color: #4d2c12;
+  font-family: var(--coffee-font-alt);
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 1.4em;
+  margin-right: 0.4em;
+  vertical-align: middle;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.1em;
+}
+
+
+/* dito yung design ng icon */
+.cart-btn {
+  background: none;
+  border: none;
+  font-size: 1.7em;
+  color: #3d250f;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+/* dito ko hinati sa tatlong yung home,menu, cart */
+.nav-links {
+  display: flex;
+  gap: 1.7em;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Dito i-design yung home,menu and cart */
+.nav-links a {
+  color: #231f20;
+  font-family: var(--coffee-font);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+
+/* Dito yung kung ano mangyaayari pag pinindot or tinapat yung cursor sa home, menu, cart */
+.nav-links a.active,
+.nav-links a:hover {
+  color: var(--coffee-accent);
+}
+
+/* so even in any screen size , the position will not move*/
+.cart-icon {
+  position: relative;
+}
+
+footer {
+  background: #1b1517;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: var(--coffee-light);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section (index.html */
+
+/* kapag sinabing hero section, ito yung pinakaunang makikita sa page */
+
+/*  Dito idedesign yung main tag ng index.html*/
+/* ito yung sa background */
+.hero-background {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('luis\ huevos.jpg');
+  background-size: cover;
+  background-position: 50% 10%;
+  /* adjust the position of the background image */
+  border-radius: 0;
+  margin: 0;
+}
+
+/* Ginamit ito para mauna yung  */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 20, 10, 0.45);
+  /* semi-dark overlay */
+  z-index: 0;
+}
+
+/* design ng hero content(KUNG ANO YUNG NASA LOOB NG HERO SECTION) */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+/* Desing for "Huevos' Cafe" */
+.hero-content h1 {
+  font-family: 'Georgia', serif;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.3em;
+}
+
+/* Design for tagline */
+.hero-content .tagline {
+  font-size: 1.3em;
+  margin-bottom: 1.3em;
+  font-family: inherit;
+}
+
+/* design ng order button */
+.order-btn {
+  background: #7d4218;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(30, 20, 10, 0.14);
+  border: none;
+  cursor: pointer;
+}
+
+
+.order-btn:hover {
+  background: #9c5c26;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+/* dITO IDEDESIGN LAHAT NG MAY BUTTON */
+/* Button Styles (General) */
+.btn {
+  background: var(--coffee-accent);
+  color: var(--coffee-light);
+  border: none;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: var(--coffee-accent-dark);
+}
+
+.order-btn {
+  background: var(--coffee-accent);
+  color: #fff;
+}
+
+/* Menu Page */
+
+
+.menu-title {
+  font-size: 2.7em;
+  font-family: var(--coffee-font-alt);
+  font-weight: bold;
+  color: #3d250f;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-btn {
+  width: 500px;
+  max-width: 90vw;
+  height: 80px;
+  background: var(--coffee-accent);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.4em;
+  font-family: var(--coffee-font);
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 0.5em;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.menu-btn:hover {
+  background: var(--coffee-accent-dark);
+  transform: scale(1.03);
+}
+
+.menu-section {
+  margin-top: 4em;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cart Page */
+
+
+
+.cart-section {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.cart-section h2 {
+  font-size: 2.3em;
+  font-family: var(--coffee-font-alt);
+  color: #3d250f;
+  margin-bottom: 1.2em;
+}
+
+.btn.checkout-btn {
+  width: 100%;
+  background: var(--coffee-accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.07em;
+  padding: 0.9em 2em;
+  font-weight: 600;
+  margin-top: 1.2em;
+}
+
+.btn.checkout-btn:hover {
+  background: var(--coffee-accent-dark);
+}
+
+
+
+/* checkout page */
+
+.checkout-main {
+  max-width: 1100px;
+  margin: 2.2em auto;
+  padding: 0 2vw;
+}
+
+.checkout-title {
+  font-size: 2.6em;
+  font-family: var(--coffee-font-alt);
+  font-weight: bold;
+  color: #3d250f;
+  margin-bottom: 1.5em;
+}
+
+.checkout-row {
+  display: flex;
+  gap: 4vw;
+  align-items: flex-start;
+}
+
+.checkout-form {
+  flex: 1;
+  min-width: 320px;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.checkout-form h2 {
+  font-size: 1.36em;
+  color: #4d2c12;
+  margin-bottom: 1em;
+}
+
+.form-group {
+  margin-bottom: 1.2em;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1em;
+  color: #3d250f;
+  margin-bottom: 0.4em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 0.7em;
+  border: 1px solid #c6a77b;
+  border-radius: 7px;
+  font-size: 1em;
+  background: #fff;
+  color: #3d250f;
+  margin-bottom: 0.3em;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-top: 0.6em;
+}
+
+.radio-group input[type="radio"] {
+  accent-color: var(--coffee-accent);
+  margin-right: 0.6em;
+}
+
+.checkout-submit {
+  width: 100%;
+  background: var(--coffee-accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.15em;
+  padding: 0.9em 2em;
+  font-weight: 600;
+  margin-top: 1.2em;
+  cursor: pointer;
+}
+
+.checkout-submit:hover {
+  background: var(--coffee-accent-dark);
+}
