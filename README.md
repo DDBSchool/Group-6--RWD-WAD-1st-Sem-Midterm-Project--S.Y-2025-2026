@@ -5,7 +5,7 @@
 A responsive coffee shop website built as a midterm group project to showcase web development skills.
 
 ### 🔗 Live Preview
-[View Live Preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/DDBSchool/Group-6--RWD-WAD-1st-Sem-Midterm-Project--S.Y-2025-2026/main/index.html)
+[View Live Preview](https://raw.githack.com/DDBSchool/Group-6--RWD-WAD-1st-Sem-Midterm-Project--S.Y-2025-2026/main/index.html)
 
 <hr>
 
