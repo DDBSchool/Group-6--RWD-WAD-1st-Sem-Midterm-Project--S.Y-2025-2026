@@ -1,0 +1,139 @@
+.navbar {
+  background-color: var(--color-05);
+  color: var(--color-01);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.logo-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(30, 80%, 75%);
+  text-shadow:
+    1px 1px 0px hsl(30, 40%, 65%),
+    3px 3px 5px hsla(30, 50%, 50%, 0.3);
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: var(--color-01);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: var(--color-02);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+/* Mobile Menu Toggle - Hidden by default */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.hamburger .material-icons {
+  color: var(--color-01);
+  font-size: 32px;
+}
+
+/* Close Button - Hidden by default */
+.close-menu {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-menu .material-icons {
+  color: var(--color-01);
+  font-size: 32px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--color-05);
+    flex-direction: column;
+    padding: 80px 30px 30px;
+    gap: 20px;
+    transition: right 0.3s ease;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links.active .close-menu {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}

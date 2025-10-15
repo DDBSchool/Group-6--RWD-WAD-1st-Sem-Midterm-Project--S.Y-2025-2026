@@ -1,83 +1,255 @@
-/* Hero Section (index.html */
-
-/* kapag sinabing hero section, ito yung pinakaunang makikita sa page */
-
-/*  Dito idedesign yung main tag ng index.html*/
-/* ito yung sa background */
-.hero-background {
+.hero {
   position: relative;
-  min-height: 60vh;
+  height: 100vh;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/images/luis huevos.jpg');
-  background-size: cover;
-  background-position: 50% 10%; 
-    /* background-position: center; */
-  /* adjust the position of the background image */
-  border-radius: 0;
-  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--color-05) 0%, var(--color-04) 100%);
 }
 
-/* Ginamit ito para mauna yung  */
-.hero-overlay {
+.hero::before {
+  content: '';
   position: absolute;
-  inset: 0;
-  background: rgba(30, 20, 10, 0.45);
-  /* semi-dark overlay */
-  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../assets/images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 1;
 }
 
-/* design ng hero content(KUNG ANO YUNG NASA LOOB NG HERO SECTION) */
 .hero-content {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: #fff;
-  width: 100%;
+  color: var(--color-01);
+  max-width: 900px;
+  padding: 0 30px;
+  animation: fadeInUp 1s ease-out;
 }
 
-/* Desing for "Huevos' Cafe" */
-.hero-content h1 {
-  font-family: 'Georgia', serif;
-  font-size: 3em;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  margin-bottom: 0.3em;
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Design for tagline */
-.hero-content .tagline {
-  font-size: 1.3em;
-  margin-bottom: 1.3em;
-  font-family: inherit;
+.hero-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-02);
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.3s forwards;
 }
 
-/* design ng order button */
-.order-btn {
-  background: #7d4218;
-  color: #fff;
-  border-radius: 8px;
-  padding: 0.7em 2em;
-  font-size: 1.1em;
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  color: var(--color-01);
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.6s forwards;
+}
+
+.hero-description {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: var(--color-02);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.9s forwards;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1.2s forwards;
+}
+
+.btn {
+  padding: 18px 45px;
+  font-size: 16px;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(30, 20, 10, 0.14);
-  border: none;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
   cursor: pointer;
+  border: 2px solid transparent;
+  display: inline-block;
 }
 
-
-.order-btn:hover {
-  background: #9c5c26;
+.btn-primary {
+  background-color: var(--color-03);
+  color: var(--color-01);
+  border-color: var(--color-03);
 }
 
-.tagline {
-  font-size: 1.1rem;
-  margin-bottom: 1.2rem;
-  color: #fff;
+.btn-primary:hover {
+  background-color: var(--color-04);
+  border-color: var(--color-04);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
-.order-btn {
-  background: var(--coffee-accent);
-  color: #fff;
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-01);
+  border-color: var(--color-01);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-01);
+  color: var(--color-05);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1.5s forwards, bounce 2s infinite 2s;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
+.scroll-indicator {
+  width: 30px;
+  height: 50px;
+  border: 2px solid var(--color-02);
+  border-radius: 25px;
+  position: relative;
+}
+
+.scroll-indicator::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-02);
+  border-radius: 50%;
+  animation: scrollDot 2s infinite;
+}
+
+@keyframes scrollDot {
+  0% {
+    top: 8px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 32px;
+    opacity: 0;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 500px;
+  }
+
+  .hero-title {
+    font-size: 52px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 15px 35px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero-content {
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    padding: 14px 30px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-scroll {
+    bottom: 30px;
+  }
 }

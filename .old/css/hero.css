@@ -1,0 +1,83 @@
+/* Hero Section (index.html */
+
+/* kapag sinabing hero section, ito yung pinakaunang makikita sa page */
+
+/*  Dito idedesign yung main tag ng index.html*/
+/* ito yung sa background */
+.hero-background {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/images/luis huevos.jpg');
+  background-size: cover;
+  background-position: 50% 10%; 
+    /* background-position: center; */
+  /* adjust the position of the background image */
+  border-radius: 0;
+  margin: 0;
+}
+
+/* Ginamit ito para mauna yung  */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 20, 10, 0.45);
+  /* semi-dark overlay */
+  z-index: 0;
+}
+
+/* design ng hero content(KUNG ANO YUNG NASA LOOB NG HERO SECTION) */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+/* Desing for "Huevos' Cafe" */
+.hero-content h1 {
+  font-family: 'Georgia', serif;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.3em;
+}
+
+/* Design for tagline */
+.hero-content .tagline {
+  font-size: 1.3em;
+  margin-bottom: 1.3em;
+  font-family: inherit;
+}
+
+/* design ng order button */
+.order-btn {
+  background: #7d4218;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(30, 20, 10, 0.14);
+  border: none;
+  cursor: pointer;
+}
+
+
+.order-btn:hover {
+  background: #9c5c26;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.order-btn {
+  background: var(--coffee-accent);
+  color: #fff;
+}
