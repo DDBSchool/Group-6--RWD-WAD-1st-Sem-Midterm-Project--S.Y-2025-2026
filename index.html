@@ -10,13 +10,14 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/featured-products.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
 
   <nav class="navbar">
-    <a href="/" class="logo">
+    <a href="#" class="logo">
       <img src="assets/images/brewme-logo.png" alt="BrewMe">
       <span class="logo-text">brewme</span>
     </a>
@@ -29,37 +30,130 @@
       <button class="close-menu">
         <span class="material-icons">close</span>
       </button>
-      <a href="/menu">Menu</a>
-      <a href="/subscription">Subscription</a>
-      <a href="/about">About Us</a>
+      <a href="html/menu.html">Menu</a>
+      <a href="html/subscription.html">Subscription</a>
+      <a href="html/about-us.html">About Us</a>
     </div>
   </nav>
 
   <section class="hero">
     <div class="hero-content">
-      <p class="hero-subtitle">Crafted with Passion</p>
-      <h1 class="hero-title">Every Cup Tells a Story</h1>
+      <p class="hero-subtitle">Where Every Bean Tells a Story</p>
+      <h1 class="hero-title">Brewed to Perfection, Poured with Passion</h1>
       <p class="hero-description">
-        Experience the perfect blend of tradition and innovation. From farm to cup, we bring you the finest coffee that
-        awakens your senses.
+        From the first sip to the last drop, experience coffee crafted with care. Start your morning ritual with us.
       </p>
       <div class="hero-cta">
-        <a href="/menu" class="btn btn-primary">Explore Menu</a>
-        <a href="/subscription" class="btn btn-secondary">Start Subscription</a>
+        <a href="html/menu.html" class="btn btn-primary">Explore Menu</a>
+        <a href="html/subscription.html" class="btn btn-secondary">Start Subscription</a>
       </div>
     </div>
+  </section>
 
-    <div class="hero-scroll">
-      <div class="scroll-indicator"></div>
+  <div class="hero-scroll">
+    <div class="scroll-indicator"></div>
+  </div>
+  </section>
+
+  <section class="featured-products">
+    <div class="featured">
+      <h2 class="section-title">Our Signature Brews</h2>
+      <p class="section-subtitle">Handcrafted favorites that keep our customers coming back</p>
+
+      <div class="slider-container">
+        <button class="slider-arrow slider-prev">
+          <span class="material-icons">chevron_left</span>
+        </button>
+
+        <div class="products-slider">
+          <div class="product-card">
+            <div class="product-image"></div>
+            <div class="product-info">
+              <h3 class="product-name">Lorem Ipsum Brew</h3>
+              <p class="product-desc">Dolor sit amet consectetur</p>
+              <div class="product-footer">
+                <span class="product-price">₱180</span>
+                <a href="#" class="btn-add">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image"></div>
+            <div class="product-info">
+              <h3 class="product-name">Consectetur Latte</h3>
+              <p class="product-desc">Elit sed do eiusmod tempor</p>
+              <div class="product-footer">
+                <span class="product-price">₱160</span>
+                <a href="#" class="btn-add">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image"></div>
+            <div class="product-info">
+              <h3 class="product-name">Adipiscing Espresso</h3>
+              <p class="product-desc">Ut labore et dolore magna</p>
+              <div class="product-footer">
+                <span class="product-price">₱140</span>
+                <a href="#" class="btn-add">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image"></div>
+            <div class="product-info">
+              <h3 class="product-name">Tempor Cappuccino</h3>
+              <p class="product-desc">Enim ad minim veniam quis</p>
+              <div class="product-footer">
+                <span class="product-price">₱170</span>
+                <a href="#" class="btn-add">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image"></div>
+            <div class="product-info">
+              <h3 class="product-name">Incididunt Mocha</h3>
+              <p class="product-desc">Exercitation ullamco laboris</p>
+              <div class="product-footer">
+                <span class="product-price">₱190</span>
+                <a href="#" class="btn-add">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image"></div>
+            <div class="product-info">
+              <h3 class="product-name">Aliquip Americano</h3>
+              <p class="product-desc">Commodo consequat duis</p>
+              <div class="product-footer">
+                <span class="product-price">₱120</span>
+                <a href="#" class="btn-add">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-arrow slider-next">
+          <span class="material-icons">chevron_right</span>
+        </button>
+      </div>
+
+      <div class="slider-dots"></div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="footer-top">
       <nav class="footer-links">
-        <a href="/menu">Menu</a>
-        <a href="/subscription">Subscription</a>
-        <a href="/about">About Us</a>
+        <a href="html/menu.html">Menu</a>
+        <a href="html/subscription.html">Subscription</a>
+        <a href="html/about-us.html">About Us</a>
       </nav>
     </div>
 
@@ -103,13 +197,14 @@
     <div class="footer-bottom">
       <span class="copyright">&copy; 1995 BrewMe Coffee Co. All rights reserved.</span>
       <div class="legal">
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/terms-of-service">Terms of Service</a>
-        <a href="/cookie-policy">Cookie Policy</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
       </div>
     </div>
   </footer>
   <script src="js/navbar.js"></script>
+  <script src="js/featured-product.js"></script>
 </body>
 
 </html>
