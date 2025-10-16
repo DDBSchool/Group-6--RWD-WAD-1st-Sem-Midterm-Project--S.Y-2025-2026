@@ -106,6 +106,13 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
   .hamburger {
     display: flex;
     align-items: center;
