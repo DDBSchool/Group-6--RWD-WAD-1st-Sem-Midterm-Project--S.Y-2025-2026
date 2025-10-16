@@ -29,8 +29,6 @@ A responsive coffee shop website built as a midterm group project for Web Applic
 ## ✨ Project Features
 
 - **Responsive Design**: Adapts to all screen sizes
-- **Interactive Menu**: Browse our selection of coffee and pastries
-- **Contact Form**: Get in touch with us easily
 - **Modern UI**: Clean and intuitive user interface
 - **Animations**: Smooth transitions and hover effects
 
