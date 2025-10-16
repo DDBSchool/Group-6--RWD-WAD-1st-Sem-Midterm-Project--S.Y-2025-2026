@@ -71,44 +71,13 @@
   font-size: 18px;
   font-weight: 600;
   color: var(--color-05);
-  padding-bottom: 6px;
+  padding-bottom: 8px;
 }
 
 .product-desc {
   font-size: 14px;
   color: #666;
-  line-height: 1.4;
-  padding-bottom: 16px;
-}
-
-.product-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 12px;
-  border-top: 1px solid #f0f0f0;
-}
-
-.product-price {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--color-05);
-}
-
-.btn-add {
-  text-decoration: none;
-  background-color: var(--color-05);
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  transition: all 0.2s ease;
-  padding: 8px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-add:hover {
-  background-color: var(--color-04);
+  line-height: 1.5;
 }
 
 .slider-arrow {
@@ -209,9 +178,5 @@
 
   .product-name {
     font-size: 17px;
-  }
-
-  .product-price {
-    font-size: 22px;
   }
 }
