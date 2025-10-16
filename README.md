@@ -1,4 +1,4 @@
-### **MIDTERM PROJECT: Web Application Development 1**
+### **MIDTERM PROJECT: Web Application Development 1 & Responsive Web Design 1**
 
 ### **Brewme Coffe Website**
 
