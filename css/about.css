@@ -1,0 +1,75 @@
+.about {
+  padding: 80px 20px;
+  background-color: white;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--color-05);
+  padding-bottom: 24px;
+}
+
+.about-desc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-04);
+  padding-bottom: 20px;
+}
+
+.about-image {
+  aspect-ratio: 1;
+  background-image: url('../assets/images/about-us.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 20px;
+  }
+
+  .about-content {
+    gap: 40px;
+  }
+
+  .about-title {
+    font-size: 40px;
+  }
+
+  .about-desc {
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .about {
+    padding: 50px 20px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-title {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+
+  .about-desc {
+    font-size: 15px;
+  }
+}

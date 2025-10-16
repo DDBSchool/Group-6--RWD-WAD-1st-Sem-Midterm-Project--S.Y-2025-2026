@@ -44,6 +44,42 @@
   display: none;
 }
 
+/* .product-card:nth-child(1) .product-image {
+  background-image: url('../assets/images/product1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-card:nth-child(2) .product-image {
+  background-image: url('../assets/images/product2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-card:nth-child(3) .product-image {
+  background-image: url('../assets/images/product3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-card:nth-child(4) .product-image {
+  background-image: url('../assets/images/product4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-card:nth-child(5) .product-image {
+  background-image: url('../assets/images/product5.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-card:nth-child(6) .product-image {
+  background-image: url('../assets/images/product6.jpg');
+  background-size: cover;
+  background-position: center;
+} */
+
 .product-card {
   background-color: white;
   border-radius: 4px;
@@ -126,6 +162,27 @@
 .dot.active {
   background-color: var(--color-05);
   padding: 4px 12px;
+}
+
+.featured-cta {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.btn-menu {
+  padding: 14px 40px;
+  background-color: var(--color-05);
+  color: var(--color-01);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: 2px solid var(--color-05);
+}
+
+.btn-menu:hover {
+  background-color: transparent;
+  color: var(--color-05);
 }
 
 /* Tablet - 2 cards */
