@@ -1,12 +1,14 @@
-# ☕ Coffee Haven - Midterm Project
+### MIDTERM PROJECT: Web Application Development 1
 
-A responsive coffee shop website built as a midterm group project for Web Application Development 1.
+### **Brewme Coffe Website**
+
+A responsive coffee website built as a midterm group project to showcase web development skills.
 
 [View Live Preview](https://raw.githack.com/DDBSchool/Group-6--RWD-WAD-1st-Sem-Midterm-Project--S.Y-2025-2026/main/index.html)
 
 <hr>
 
-## 👥 Team Members & Roles
+### 👥 Team Members & Roles
 
 | Name | Role |
 |------|------|
@@ -26,7 +28,7 @@ A responsive coffee shop website built as a midterm group project for Web Applic
 
 <hr>
 
-## ✨ Project Features
+### ✨ Project Features
 
 - **Responsive Design**: Adapts to all screen sizes
 - **Modern UI**: Clean and intuitive user interface
@@ -59,4 +61,4 @@ A responsive coffee shop website built as a midterm group project for Web Applic
 <hr>
 
 ### 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
