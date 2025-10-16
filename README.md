@@ -1,4 +1,4 @@
-### MIDTERM PROJECT: Web Application Development 1
+### **MIDTERM PROJECT: Web Application Development 1**
 
 ### **Brewme Coffe Website**
 
@@ -8,7 +8,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 <hr>
 
-### 👥 Team Members & Roles
+### **👥 Team Members & Roles**
 
 | Name | Role |
 |------|------|
@@ -17,7 +17,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 | Anthony Daniel Bautista | Project Coordinator |
 | Luis Narciso D. Huevos | Design Lead |
 
-### 📋 Contributions
+### **📋 Contributions**
 
 | Name | Planning | Design | HTML | CSS | JavaScript |
 |------|----------|--------|------|-----|------------|
@@ -28,7 +28,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 <hr>
 
-### ✨ Project Features
+### **✨ Project Features**
 
 - **Responsive Design**: Adapts to all screen sizes
 - **Modern UI**: Clean and intuitive user interface
@@ -36,7 +36,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 <hr>
 
-### 🛠️ Technologies Used
+### **🛠️ Technologies Used**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -44,7 +44,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 <hr>
 
-### 🚀 Getting Started
+### **🚀 Getting Started**
 
 **Prerequisites**
 - A modern web browser (Chrome, Firefox, Safari, Edge)
@@ -60,5 +60,5 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 <hr>
 
-### 📝 License
+### **📝 License**
 This project is licensed under the MIT License.
