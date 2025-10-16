@@ -1,0 +1,294 @@
+/* Cart Page */
+
+
+.cart-section {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.cart-section h2 {
+  font-size: 2.3em;
+  font-family: var(--coffee-font-alt);
+  color: #3d250f;
+  margin-bottom: 1.2em;
+}
+
+.cart-card {
+  display: flex;
+  align-items: center;
+  background: var(--coffee-grey-bg);
+  border-radius: 14px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.03);
+  margin-bottom: 1.3em;
+  padding: 1.1em;
+  gap: 1.2em;
+  position: relative;
+  border: 1px solid var(--coffee-grey-border);
+}
+
+.cart-card-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 0.6em;
+}
+
+.cart-card-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.cart-card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7em;
+}
+
+.cart-card-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #3d250f;
+}
+
+.cart-remove-btn {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  background: none;
+  border: none;
+  font-size: 1.8em;
+  color: #6a3c16;
+  cursor: pointer;
+  margin-left: 0.8em;
+}
+
+
+
+
+
+
+
+.cart-card-sub {
+  font-size: 1em;
+  color: #6a3c16;
+  margin: 0.23em 0 0.4em 0;
+}
+
+.cart-card-addons,
+.cart-card-condiments {
+  font-size: 1em;
+  color: var(--coffee-grey-text);
+  margin-bottom: 0.3em;
+}
+
+.cart-card-qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  margin: 0.5em 0;
+}
+
+.cart-qty-btn {
+  background: #fff;
+  border: 1px solid #c6a77b;
+  color: #6a3c16;
+  border-radius: 5px;
+  font-size: 1.1em;
+  padding: 0.18em 0.9em;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.cart-qty-btn:hover {
+  background: var(--coffee-bg);
+  border-color: var(--coffee-accent);
+}
+
+.cart-card-qty {
+  width: 30px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.cart-card-price {
+  font-size: 1.18em;
+  font-weight: bold;
+  color: var(--coffee-accent);
+  margin-left: 1.2em;
+}
+
+.cart-total-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0 0.5em 0;
+  font-size: 1.3em;
+  font-family: var(--coffee-font-alt);
+  font-weight: bold;
+  color: #6a3c16;
+  border-top: 2px solid var(--coffee-grey-border);
+  margin-top: 2em;
+}
+
+.cart-total-price {
+  color: var(--coffee-accent);
+}
+
+
+.btn.checkout-btn {
+  width: 100%;
+  background: var(--coffee-accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.07em;
+  padding: 0.9em 2em;
+  font-weight: 600;
+  margin-top: 1.2em;
+}
+
+.btn.checkout-btn:hover {
+  background: var(--coffee-accent-dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cart modal */
+.cart-modal-bg {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(20, 12, 10, 0.65);
+}
+
+.cart-modal {
+  position: fixed;
+  z-index: 101;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96vw;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 32px rgba(60, 40, 30, 0.16);
+  padding: 1.2em 1.2em 1em 1.2em;
+  animation: modalPop 0.22s;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.cart-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #6a3c16;
+  cursor: pointer;
+}
+
+.cart-modal-title {
+  font-size: 1.3em;
+  font-family: var(--coffee-font-alt);
+  color: #3d250f;
+  margin-bottom: 0.8em;
+}
+
+.cart-modal-list {
+  font-size: 1em;
+}
+
+.cart-modal-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  margin-bottom: 1.1em;
+  background: var(--coffee-grey-bg);
+  border-radius: 8px;
+  padding: 0.7em 0.3em 0.7em 0.7em;
+  position: relative;
+}
+
+.cart-modal-item img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cart-modal-item-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.cart-modal-item-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #3d250f;
+}
+
+.cart-modal-item-sub {
+  font-size: 0.95em;
+  color: #6a3c16;
+}
+
+.cart-modal-item-addons,
+.cart-modal-item-condiments {
+  font-size: 0.95em;
+  color: var(--coffee-grey-text);
+}
+
+.cart-modal-item-price {
+  font-size: 1.03em;
+  font-weight: bold;
+  color: var(--coffee-accent);
+  margin-left: 0.6em;
+}
+
+.cart-modal-total-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0 0.5em 0;
+  font-size: 1.1em;
+  font-family: var(--coffee-font-alt);
+  font-weight: bold;
+  color: #6a3c16;
+  border-top: 2px solid var(--coffee-grey-border);
+  margin-top: 1em;
+}
+
+.cart-modal-total-price {
+  color: var(--coffee-accent);
+}
