@@ -12,8 +12,6 @@
   margin-top: 140px;
 }
 
-
-
 .cart-section h2 {
   font-size: 2.3em;
   font-family: var(--coffee-font-alt);
@@ -71,12 +69,6 @@
   cursor: pointer;
   margin-left: 0.8em;
 }
-
-
-
-
-
-
 
 .cart-card-sub {
   font-size: 1em;
@@ -145,8 +137,6 @@
 .cart-total-price {
   color: var(--coffee-accent);
 }
-
-
 
 .btn.checkout-btn {
   width: 100%;
@@ -292,3 +282,4 @@
     }
 
 }
+
