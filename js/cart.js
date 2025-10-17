@@ -7,10 +7,6 @@ if (document.getElementById('cart-items')) { //Checks if the element with ID car
     let total = 0; //Sets up a total variable to keep track of the total price.
     
     const checkoutBtn = document.getElementById('checkout-btn'); // <--- Get the button
-
-    
-    
-    
     
     if (cart.length === 0) {
       cartItems.innerHTML = '<p>Your cart is empty.</p>';
@@ -22,9 +18,6 @@ if (document.getElementById('cart-items')) { //Checks if the element with ID car
         checkoutBtn.style.pointerEvents = 'none';
         checkoutBtn.style.opacity = '0.5'; // visually indicate disabled
       }
-  
-    
-    
     
     } else {
       cart.forEach((item, idx) => { //for each item :
@@ -63,8 +56,6 @@ if (document.getElementById('cart-items')) { //Checks if the element with ID car
             <div class="cart-card-price">₱${item.price * (item.qty || 1)}</div>
           </div>
 
-
-
         `;
       });
       if (checkoutBtn) {
@@ -74,11 +65,6 @@ if (document.getElementById('cart-items')) { //Checks if the element with ID car
         checkoutBtn.style.pointerEvents = '';
         checkoutBtn.style.opacity = '';
       }
-      
-
-
-
-
 
     }
     //Updates the total price area with the sum of everything in the cart.
@@ -87,9 +73,6 @@ if (document.getElementById('cart-items')) { //Checks if the element with ID car
         <span>Total:</span>
         <span class="cart-total-price">₱${total.toFixed(0)}</span>
       </div>
-
-     
-
     `;
   }
   renderCart(); //Calls the function so the cart appears as soon as the page loads.
@@ -117,6 +100,7 @@ if (document.getElementById('cart-items')) { //Checks if the element with ID car
   };
   updateCartIcon(); //Ensures the cart icon badge is updated to match the current cart.
 }
+
 
 
 
