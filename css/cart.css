@@ -275,11 +275,36 @@
 
 }
 
+.checkout-title{
+  margin-top:140px;
+}
+
+
+.confirmation-icon{
+  margin-top:140px;
+}
+
+.confirmation-header{
+  margin-top:140px;
+}
+
 @media(min-width:600px) {
     .your-cart {
       margin-top: 50px;
 
     }
+
+  .confirmation-icon{
+    margin-top: 50px;
+  }
+
+  .confirmation-header{
+    margin-top: 50px;
+  }
+
+  .checkout-title{
+  margin-top:50px;
+}
 
 }
 
