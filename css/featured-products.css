@@ -40,41 +40,41 @@
   scrollbar-width: none;
 }
 
-/* .product-card:nth-child(1) .product-image {
-  background-image: url('../assets/images/product1.jpg');
+.product-card:nth-child(1) .product-image {
+  background-image: url('../assets/images/product1-caffe-latte.png');
   background-size: cover;
   background-position: center;
 }
 
 .product-card:nth-child(2) .product-image {
-  background-image: url('../assets/images/product2.jpg');
+  background-image: url('../assets/images/product2-espresso.png');
   background-size: cover;
   background-position: center;
 }
 
 .product-card:nth-child(3) .product-image {
-  background-image: url('../assets/images/product3.jpg');
+  background-image: url('../assets/images/product3-cappuccino.png');
   background-size: cover;
   background-position: center;
 }
 
 .product-card:nth-child(4) .product-image {
-  background-image: url('../assets/images/product4.jpg');
+  background-image: url('../assets/images/product4-croissant.png');
   background-size: cover;
   background-position: center;
 }
 
 .product-card:nth-child(5) .product-image {
-  background-image: url('../assets/images/product5.jpg');
+  background-image: url('../assets/images/product5-blueberry-muffin.png');
   background-size: cover;
   background-position: center;
 }
 
 .product-card:nth-child(6) .product-image {
-  background-image: url('../assets/images/product6.jpg');
+  background-image: url('../assets/images/product6-pain-au-chocolat.png');
   background-size: cover;
   background-position: center;
-} */
+}
 
 .product-card {
   background-color: white;
