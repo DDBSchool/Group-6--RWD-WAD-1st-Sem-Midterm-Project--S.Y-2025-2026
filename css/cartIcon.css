@@ -1,0 +1,47 @@
+/* dito yung design ng icon */
+.cart-btn {
+  background: none;
+  border: none;
+  font-size: 1.7em;
+  color: #3d250f;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* so even in any screen size , the position will not move*/
+.cart-icon {
+  position: relative;
+}
+
+
+.cart-badge {
+  position: absolute;
+  right: -14px;
+  background: var(--coffee-accent);
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
