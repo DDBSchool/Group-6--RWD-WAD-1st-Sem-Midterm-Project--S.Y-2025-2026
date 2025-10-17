@@ -34,10 +34,8 @@ if (document.getElementById('order-summary')) {
     }));
     localStorage.removeItem('cart'); //Removes the cart (clears it out for next time).
 
-
-
-    
     window.location.href = 'confirmation.html'; //redirecting to confirmation page
   };
 }
+
 
