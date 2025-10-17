@@ -6,6 +6,20 @@
   justify-content: space-between;
   align-items: center;
 }
+nav a {
+  color: #fff; /* text color */
+  text-decoration: none; /* remove underline */
+  margin: 0 20px; /* space between links (left and right) */
+  padding: 10px 15px; /* space sa loob ng link */
+  font-weight: bold;
+  transition: 0.3s; /* smooth hover effect */
+}
+
+nav a:hover {
+  background-color: #61412b; /* hover background */
+  color: #ffcc66; /* hover text color */
+  border-radius: 5px; /* rounded corners */
+}
 
 .logo {
   display: flex;
