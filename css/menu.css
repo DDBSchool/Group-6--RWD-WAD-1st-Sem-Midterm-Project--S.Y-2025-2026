@@ -3,7 +3,7 @@
     font-family: var(--coffee-font-alt);
     font-weight: bold;
     color: #3d250f;
-    margin-top: 2em;
+    margin-top: 4em;
     margin-bottom: 2em;
     text-align: center;
 }
@@ -51,6 +51,8 @@
 @media(min-width:600px) {
     .menu-title {
         color: var(--testing-tablet); 
+         margin-top: 80px;
+
     }
 
     .menu-btn {
@@ -480,4 +482,5 @@
    .modal-desc{
     font-size: large;
    }
+
 }
