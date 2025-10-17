@@ -1,6 +1,6 @@
 ### **MIDTERM PROJECT: Web Application Development 1 & Responsive Web Design 1**
 
-### **Brewme Coffe Website**
+### **Brewme Coffee Website**
 
 A responsive coffee website built as a midterm group project to showcase web development skills.
 
