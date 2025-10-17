@@ -8,6 +8,12 @@
   padding: 0 1em;
 }
 
+.your-cart{
+  margin-top: 140px;
+}
+
+
+
 .cart-section h2 {
   font-size: 2.3em;
   font-family: var(--coffee-font-alt);
@@ -276,4 +282,13 @@
   background: #ccc !important;
   color: #fff !important;
   cursor: not-allowed !important;
+
+}
+
+@media(min-width:600px) {
+    .your-cart {
+      margin-top: 50px;
+
+    }
+
 }
