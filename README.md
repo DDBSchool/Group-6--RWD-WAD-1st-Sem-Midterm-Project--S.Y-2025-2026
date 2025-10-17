@@ -21,9 +21,9 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 | Name | Planning | Design | HTML | CSS | JavaScript |
 |------|----------|--------|------|-----|------------|
-| Anthony Daniel Bautista | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Anthony Daniel Bautista | ✓ | ✓ | ✓ | ✓ |  |
 | Denmark Dela Cruz Bartolome | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Luis Narciso D. Huevos | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Luis Narciso D. Huevos | ✓ | ✓ | ✓ | ✓ |  |
 | Samuel Binos | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 <hr>
