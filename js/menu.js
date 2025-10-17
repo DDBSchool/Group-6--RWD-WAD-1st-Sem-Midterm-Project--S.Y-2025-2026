@@ -67,12 +67,6 @@ if (document.getElementById('menu-buttons')) { //Checks if the element with ID m
     renderMenuItems(filtered); //Displays the filtered list.
   };
 
-
-
-
-
-
-
   // --- Menu item modal ---
   menuList.onclick = function (e) {
     const card = e.target.closest('.menu-card');//Checks if you clicked on a menu card.
@@ -83,13 +77,6 @@ if (document.getElementById('menu-buttons')) { //Checks if the element with ID m
     }
   };
 }
-
-
-
-
-
-
-
 
 // --- Modal for menu item details ---
 function showMenuItemModal(item) { //Defines a function that will show a pop-up modal for a menu item.
