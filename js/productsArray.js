@@ -2,7 +2,7 @@
 const drinks = [
   {
     name: 'Caffe Latte',
-    img: 'https://images.unsplash.com/photo-1464306076886-debede14d7b1?auto=format&fit=crop&w=800&q=80',
+    img: '../assets/images/product1-caffe-latte.png',
     desc: 'Rich espresso with steamed milk and a light layer of foam',
     price: 150,
     sizes: [
@@ -19,7 +19,7 @@ const drinks = [
   },
   {
     name: 'Cappuccino',
-    img: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80',
+    img: '../assets/images/product3-cappuccino.png',
     desc: 'Classic Italian coffee with equal parts espresso, steamed milk, and foam',
     price: 160,
     sizes: [
@@ -36,7 +36,7 @@ const drinks = [
   },
   {
     name: 'Espresso',
-    img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+    img: '../assets/images/product2-espresso.png',
     desc: 'Bold and intense shot of pure coffee perfection',
     price: 120,
     sizes: [
@@ -54,7 +54,7 @@ const drinks = [
 const pastries = [
   {
     name: 'Croissant',
-    img: 'https://images.unsplash.com/photo-1505250461400-81d3c8f9c8b4?auto=format&fit=crop&w=800&q=80',
+    img: '../assets/images/product4-croissant.png',
     desc: 'Buttery, flaky pastry',
     price: 95,
     sizes: [{ label: 'Regular', price: 95 }],
@@ -63,7 +63,7 @@ const pastries = [
   },
   {
     name: 'Blueberry Muffin',
-    img: 'https://images.unsplash.com/photo-1464306076886-debede14d7b1?auto=format&fit=crop&w=800&q=80',
+    img: '../assets/images/product5-blueberry-muffin.png',
     desc: 'Sweet muffin loaded with blueberries',
     price: 85,
     sizes: [{ label: 'Regular', price: 85 }],
@@ -72,7 +72,7 @@ const pastries = [
   },
   {
     name: 'Pain au Chocolat',
-    img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80',
+    img: '../assets/images/product6-pain-au-chocolat.png',
     desc: 'Flaky pastry filled with rich chocolate',
     price: 110,
     sizes: [{ label: 'Regular', price: 110 }],
@@ -80,3 +80,4 @@ const pastries = [
     condiments: []
   }
 ];
+
