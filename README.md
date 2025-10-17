@@ -33,6 +33,11 @@ A responsive coffee website built as a midterm group project to showcase web dev
 - **Responsive Design**: Adapts to all screen sizes
 - **Modern UI**: Clean and intuitive user interface
 - **Animations**: Smooth transitions and hover effects
+- **Product Menu & Featured Items**: Displays products dynamically via JS
+- **Shopping Cart System**: Add, remove, and view items
+- **Checkout Page**: Simulates order and payment flow
+- **Order Confirmation**: Display success of receipt message
+- **Testimonials and About Sections**: Informational and branding content
 
 <hr>
 
