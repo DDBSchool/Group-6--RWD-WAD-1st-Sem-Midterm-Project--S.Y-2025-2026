@@ -14,7 +14,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 |------|------|
 | Denmark Dela Cruz Bartolome | Lead Programmer, Task Disseminator |
 | Samuel Binos | Assistant Programmer |
-| Anthony Daniel Bautista | Project Coordinator |
+| Anthony Daniel Bautista | Project Coordinator, Documentation |
 | Luis Narciso D. Huevos | Design Lead |
 
 ### **📋 Contributions**
@@ -31,12 +31,18 @@ A responsive coffee website built as a midterm group project to showcase web dev
 ### **✨ Project Features**
 
 - **Responsive Design**: Adapts to all screen sizes
+- **Burger Dropdown**: Navigation turns to burger icon in smaller screen size
 - **Modern UI**: Clean and intuitive user interface
 - **Animations**: Smooth transitions and hover effects
 - **Product Menu & Featured Items**: Displays products dynamically via JS
+- **Menu modal**: Highlights the selected modal and shows the category producs, and hides the undelected modal.
+- **Category Items**: Highlights the selected product by showing the modal of it, and lowering the background opacity to highlight the modal .
 - **Shopping Cart System**: Add, remove, and view items
+- **Proceed checkout button**: User will not be able to proceed to checkout page if cart dont have at least one (1) product.
 - **Checkout Page**: Simulates order and payment flow
+- **User Form**: Users will not be able to proceed if, check-out form is emply or invalid inputs. User form also have auto fill.
 - **Order Confirmation**: Display success of receipt message
+- **Array**: Can add items freely in array
 - **Testimonials and About Sections**: Informational and branding content
 
 <hr>
