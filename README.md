@@ -35,14 +35,15 @@ A responsive coffee website built as a midterm group project to showcase web dev
 - **Modern UI**: Clean and intuitive user interface
 - **Animations**: Smooth transitions and hover effects
 - **Product Menu & Featured Items**: Displays products dynamically via JS
+- **Search Bar**: Every letter user inputs, it searches the names of the product that matches the search input.
 - **Menu modal**: Highlights the selected modal and shows the category producs, and hides the undelected modal.
-- **Category Items**: Highlights the selected product by showing the modal of it, and lowering the background opacity to highlight the modal .
+- **Category Items**: Highlights the selected product by showing the modal of it, and lowering the background opacity to highlight the modal . If clicked outside the modal, it closes the modal.
 - **Shopping Cart System**: Add, remove, and view items
 - **Proceed checkout button**: User will not be able to proceed to checkout page if cart dont have at least one (1) product.
 - **Checkout Page**: Simulates order and payment flow
 - **User Form**: Users will not be able to proceed if, check-out form is emply or invalid inputs. User form also have auto fill.
 - **Order Confirmation**: Display success of receipt message
-- **Array**: Can add items freely in array
+- **Array**: Can add items freely in array (CRUD)
 - **Testimonials and About Sections**: Informational and branding content
 
 <hr>
