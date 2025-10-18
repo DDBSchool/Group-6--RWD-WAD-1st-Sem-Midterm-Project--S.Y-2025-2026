@@ -43,7 +43,7 @@ A responsive coffee website built as a midterm group project to showcase web dev
 - **Checkout Page**: Simulates order and payment flow
 - **User Form**: Users will not be able to proceed if, check-out form is emply or invalid inputs. User form also have auto fill.
 - **Order Confirmation**: Display success of receipt message
-- **Array**: Can add items freely in array (CRUD)
+- **Array**: Can create,read,update and delete items/products freely in array (CRUD)
 - **Testimonials and About Sections**: Informational and branding content
 
 <hr>
