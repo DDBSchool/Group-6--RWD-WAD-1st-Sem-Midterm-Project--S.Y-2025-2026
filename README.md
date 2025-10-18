@@ -38,7 +38,8 @@ A responsive coffee website built as a midterm group project to showcase web dev
 - **Search Bar**: Every letter user inputs, it searches the names of the product that matches the search input.
 - **Menu modal**: Highlights the selected modal and shows the category producs, and hides the undelected modal.
 - **Category Items**: Highlights the selected product by showing the modal of it, and lowering the background opacity to highlight the modal . If clicked outside the modal, it closes the modal.
-- **Shopping Cart System**: Add, remove, and view items
+- **Shopping Cart System**: Add, remove, and view items.
+- **Cart Icon** When the cart icon is clicked, it shows a cart modal, and lowers the opacity of background. When clicked outside the modal, it close the modal.
 - **Proceed checkout button**: User will not be able to proceed to checkout page if cart dont have at least one (1) product.
 - **Checkout Page**: Simulates order and payment flow
 - **User Form**: Users will not be able to proceed if, check-out form is emply or invalid inputs. User form also have auto fill.
