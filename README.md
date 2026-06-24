@@ -12,9 +12,9 @@ A responsive coffee website built as a midterm group project to showcase web dev
 
 | Name | Role |
 |------|------|
-| Denmark Dela Cruz Bartolome | Lead Programmer, Task Disseminator |
-| Samuel Binos | Assistant Programmer |
-| Anthony Daniel Bautista | Project Coordinator, Documentation |
+| Denmark Dela Cruz Bartolome | Project Manager , Assistant Programmer |
+| Samuel Binos | Main Programmer |
+| Anthony Daniel Bautista | Quality Assurance |
 | Luis Narciso D. Huevos | Design Lead |
 
 ### **📋 Contributions**
